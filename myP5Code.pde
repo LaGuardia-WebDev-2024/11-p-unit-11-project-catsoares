@@ -27,6 +27,13 @@ starY.push(random(-10, 610));
    for(var i = 0; i < starX.length; i++){
      text("❆", starX[i], starY[i]);
  }
+ drawSnow()
+}
+
+
+
+var drawSnow = function (){
+
 var snowX = [100, 120, 160, 200];
 var snowY = [50, 70, 40, 20];
 
@@ -42,7 +49,8 @@ textSize (50);
  for(var i = 0; i < snowX.length; i++){
      text("⁛⁙", snowX[i], snowY[i]);
 
-}}
+}
 
+}
 
 
